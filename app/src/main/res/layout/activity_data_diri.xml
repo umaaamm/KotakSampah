@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:fontFamily="sans-serif"
+            android:hint="Nama Anda"
+            android:inputType="text"
+            android:id="@+id/edSignUpFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--<EditText-->
+            <!--android:fontFamily="sans-serif"-->
+            <!--android:hint="Email Anda"-->
+            <!--android:id="@+id/edSignUpEmail"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+        <EditText
+            android:fontFamily="sans-serif"
+            android:hint="Alamat Anda"
+            android:inputType="text"
+            android:id="@+id/edSetAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="8dp"
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"/>
+    </LinearLayout>
+</RelativeLayout>
